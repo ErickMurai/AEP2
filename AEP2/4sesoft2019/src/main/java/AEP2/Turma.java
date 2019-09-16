@@ -9,7 +9,7 @@ public class Turma {
 	
 	public Turma (String nome) {
 		if(nome == null || nome.trim().length() == 0) {
-			throw new RuntimeException("Nome da turma não pode ser nula!");
+			throw new RuntimeException("Não pode ser nulo o nome da turma!");
 		}
 		this.nome = nome;
 	}
